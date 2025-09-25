@@ -1,0 +1,3389 @@
+[
+  {
+    "id": "attempt-9w9i3xj",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "type": "mcq",
+          "question": "What is the output of the following code?\n\n```python\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)\n```",
+          "options": [
+            "[1, 2, 3]",
+            "[1, 2, 3, 4]",
+            "[1, 2, 4]",
+            "[1, 4, 3]"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following data structures allows duplicate elements?",
+          "options": [
+            "Set",
+            "Dictionary",
+            "List",
+            "Tuple"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "type": "mcq",
+          "question": "What is the time complexity of accessing an element in a hash table?",
+          "options": [
+            "O(n)",
+            "O(log n)",
+            "O(1)",
+            "O(n^2)"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a valid way to declare a function in JavaScript?",
+          "options": [
+            "function myFunction() {}",
+            "declare myFunction() {}",
+            "function:myFunction() {}",
+            "myFunction() = function {}"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "mcq",
+          "question": "In object-oriented programming, what does 'encapsulation' refer to?",
+          "options": [
+            "The ability to create multiple instances of a class",
+            "The bundling of data and methods that operate on that data",
+            "The ability to inherit properties from another class",
+            "The process of hiding the implementation details of a class"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "policy": {
+        "passingScore": 70,
+        "weights": {
+          "mcq": 0.7,
+          "fr": 0.3
+        },
+        "timeLimitSec": 30
+      }
+    },
+    "proctorEvents": [
+      {
+        "type": "tab-blur",
+        "ts": 1758709596839
+      },
+      {
+        "type": "no-face",
+        "ts": 1758709596841
+      }
+    ],
+    "answers": [
+      {
+        "type": "mcq",
+        "choice": 0
+      },
+      {
+        "type": "mcq",
+        "choice": 0
+      },
+      {
+        "type": "mcq",
+        "choice": 0
+      },
+      {
+        "type": "mcq",
+        "choice": 0
+      },
+      {
+        "type": "mcq",
+        "choice": 0
+      }
+    ],
+    "graded": {
+      "score": 14,
+      "passed": false,
+      "breakdown": {
+        "mcqScore": 20,
+        "frScore": 0,
+        "mcqDetail": [
+          {
+            "correct": false
+          },
+          {
+            "correct": false
+          },
+          {
+            "correct": false
+          },
+          {
+            "correct": true
+          },
+          {
+            "correct": false
+          }
+        ],
+        "frDetail": []
+      }
+    }
+  },
+  {
+    "id": "attempt-mkh6otn",
+    "test": {
+      "level": "mid",
+      "questions": [
+        {
+          "type": "mcq",
+          "question": "What is the primary purpose of a load balancer in a web application architecture?",
+          "options": [
+            "A. To store user sessions",
+            "B. To distribute incoming network traffic across multiple servers",
+            "C. To encrypt data in transit",
+            "D. To cache static content"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a common method for handling concurrency in a multi-threaded application?",
+          "options": [
+            "A. Using a single-threaded event loop",
+            "B. Implementing locks and semaphores",
+            "C. Avoiding shared state entirely",
+            "D. Both B and C"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "type": "mcq",
+          "question": "In RESTful API design, which HTTP method is typically used to update an existing resource?",
+          "options": [
+            "A. GET",
+            "B. POST",
+            "C. PUT",
+            "D. DELETE"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "type": "mcq",
+          "question": "What is the purpose of using an ORM (Object-Relational Mapping) tool?",
+          "options": [
+            "A. To improve database performance",
+            "B. To facilitate the interaction between the application and the database using objects",
+            "C. To enforce data integrity",
+            "D. To generate SQL queries automatically"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following best describes the CAP theorem?",
+          "options": [
+            "A. It states that a distributed system can only guarantee two out of three properties: Consistency, Availability, and Partition Tolerance.",
+            "B. It states that a database can only be consistent if it is available.",
+            "C. It states that a system can be designed to be both scalable and maintainable.",
+            "D. It states that all databases must be ACID compliant."
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "policy": {
+        "passingScore": 70,
+        "weights": {
+          "mcq": 0.6,
+          "fr": 0.4
+        },
+        "timeLimitSec": 30
+      }
+    },
+    "proctorEvents": [
+      {
+        "type": "tab-blur",
+        "ts": 1758709800347
+      },
+      {
+        "type": "no-face",
+        "ts": 1758709800348
+      },
+      {
+        "type": "copy",
+        "ts": 1758709814652
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758709816399
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758709859020
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758709883620
+      },
+      {
+        "type": "idle",
+        "ts": 1758709946844
+      }
+    ]
+  },
+  {
+    "id": "attempt-hmn9ebu",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "type": "mcq-single",
+          "id": "q1",
+          "q": "What is the time complexity of accessing an element in an array by its index?",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "arrays",
+            "time complexity"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-single",
+          "id": "q2",
+          "q": "In JavaScript, what will the following code output: console.log(typeof null)?",
+          "options": [
+            "object",
+            "null",
+            "undefined",
+            "error"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "JavaScript",
+            "data types"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-multi",
+          "id": "q3",
+          "q": "Select all valid ways to declare a variable in JavaScript.",
+          "options": [
+            "var x = 10;",
+            "let y = 20;",
+            "const z = 30;",
+            "declare a = 40;"
+          ],
+          "correctIndices": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "JavaScript",
+            "variable declaration"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-single",
+          "id": "q4",
+          "q": "Which of the following is a valid SQL statement to retrieve all records from a table named 'users'?",
+          "options": [
+            "SELECT * FROM users;",
+            "GET * FROM users;",
+            "FETCH * FROM users;",
+            "ALL FROM users;"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "SQL",
+            "database"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "fr",
+          "id": "q5",
+          "q": "You are given a function that is supposed to return the sum of two numbers. However, it is returning NaN. What steps would you take to debug this issue?",
+          "rubric": "1. Identify the function and its parameters (0-20 points). 2. Check for type issues (0-30 points). 3. Suggest adding console logs (0-20 points). 4. Propose testing with different inputs (0-30 points).",
+          "subtype": "debug",
+          "tags": [
+            "debugging",
+            "JavaScript"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "fr",
+          "id": "q6",
+          "q": "Design a simple function in JavaScript that takes an array of numbers and returns the maximum number. Describe your approach.",
+          "rubric": "1. Clear function definition (0-20 points). 2. Correct logic to find max (0-40 points). 3. Handling edge cases (0-20 points). 4. Code readability and comments (0-20 points).",
+          "subtype": "design",
+          "tags": [
+            "JavaScript",
+            "function design"
+          ],
+          "difficulty": 1
+        }
+      ],
+      "policy": {
+        "passingScore": 70,
+        "weights": {
+          "mcq": 0.6,
+          "fr": 0.4
+        },
+        "timeLimitSec": 30
+      }
+    },
+    "proctorEvents": [
+      {
+        "type": "tab-blur",
+        "ts": 1758750564347
+      },
+      {
+        "type": "no-face",
+        "ts": 1758750564351
+      },
+      {
+        "type": "copy",
+        "ts": 1758750630154
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758750630166
+      },
+      {
+        "type": "idle",
+        "ts": 1758750795810
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758750795817
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758750975567
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758750975568
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758751107692
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758751107707
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758751120995
+      },
+      {
+        "type": "idle",
+        "ts": 1758751200898
+      },
+      {
+        "type": "paste",
+        "ts": 1758751216595
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758751216646
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758751221099
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758751280610
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758751280612
+      }
+    ],
+    "answers": [
+      {
+        "id": "q1",
+        "type": "mcq-single",
+        "choice": 2
+      },
+      {
+        "id": "q2",
+        "type": "mcq-single",
+        "choice": 0
+      },
+      {
+        "id": "q3",
+        "type": "mcq-multi",
+        "choices": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "mcq-single",
+        "choice": 0
+      },
+      {
+        "id": "q5",
+        "type": "fr",
+        "text": "I will first check whether the input parameter of the function is fine or is it collecting garbage value and then print the variable (which is returning sum) to see where the problem is exactly."
+      },
+      {
+        "id": "q6",
+        "type": "fr",
+        "text": "function getMaxNumber(arr){\n return Math.max(...arr);}\n\nI used built in Math.max function to find the max value."
+      }
+    ],
+    "graded": {
+      "score": 65,
+      "passed": false,
+      "breakdown": {
+        "mcqScore": 75,
+        "frScore": 50,
+        "mcqDetail": [
+          {
+            "id": "q1",
+            "correct": false
+          },
+          {
+            "id": "q2",
+            "correct": true
+          },
+          {
+            "id": "q3",
+            "correct": true
+          },
+          {
+            "id": "q4",
+            "correct": true
+          }
+        ],
+        "frDetail": [
+          {
+            "id": "q5",
+            "aiScore": 40,
+            "notes": "The candidate identifies the function's purpose but does not specify its parameters. There is a mention of checking for input issues and printing the variable, but no concrete suggestions for type checks or testing with different inputs."
+          },
+          {
+            "id": "q6",
+            "aiScore": 60,
+            "notes": "The function definition is clear and uses correct logic to find the maximum value. However, it lacks handling for edge cases (e.g., empty arrays) and has minimal comments or explanations for readability."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "attempt-dc5c9ce",
+    "test": {
+      "level": "architect",
+      "questions": [
+        {
+          "type": "mcq-single",
+          "id": "q1",
+          "q": "What is the primary trade-off when designing a distributed system in terms of the CAP theorem?",
+          "options": [
+            "Consistency vs Availability",
+            "Scalability vs Latency",
+            "Throughput vs Complexity",
+            "Security vs Performance"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "CAP theorem",
+            "distributed systems"
+          ],
+          "difficulty": 5
+        },
+        {
+          "type": "mcq-single",
+          "id": "q2",
+          "q": "Which of the following strategies can be used to handle back-pressure in a microservices architecture?",
+          "options": [
+            "Circuit Breaker pattern",
+            "Load Balancing",
+            "Rate Limiting",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "tags": [
+            "microservices",
+            "back-pressure"
+          ],
+          "difficulty": 5
+        },
+        {
+          "type": "mcq-multi",
+          "id": "q3",
+          "q": "Select all valid considerations when designing for observability in a cloud-native application.",
+          "options": [
+            "Structured logging",
+            "Distributed tracing",
+            "Centralized configuration management",
+            "Monitoring and alerting systems"
+          ],
+          "correctIndices": [
+            0,
+            1,
+            3
+          ],
+          "tags": [
+            "observability",
+            "cloud-native"
+          ],
+          "difficulty": 5
+        },
+        {
+          "type": "mcq-multi",
+          "id": "q4",
+          "q": "Select all factors that should be considered when choosing a caching strategy for a high-traffic application.",
+          "options": [
+            "Data consistency requirements",
+            "Cache eviction policies",
+            "Latency requirements",
+            "Cost of cache storage"
+          ],
+          "correctIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            "caching",
+            "performance"
+          ],
+          "difficulty": 5
+        },
+        {
+          "type": "fr",
+          "id": "q5",
+          "q": "You are tasked with designing a new microservices architecture for an existing monolithic application. Describe your approach to breaking down the monolith into microservices, including considerations for data management and inter-service communication.",
+          "rubric": "0-20: No clear approach or understanding. 21-40: Basic understanding with limited considerations. 41-60: Good approach but lacks details on data management or communication. 61-80: Detailed approach with clear data management and communication strategies. 81-100: Comprehensive design with innovative solutions and thorough considerations.",
+          "subtype": "design",
+          "tags": [
+            "microservices",
+            "architecture"
+          ],
+          "difficulty": 5
+        },
+        {
+          "type": "fr",
+          "id": "q6",
+          "q": "Describe how you would implement a strategy to ensure high availability in a distributed system. Discuss the architectural patterns you would use and how they mitigate potential failures.",
+          "rubric": "0-20: No clear strategy or understanding. 21-40: Basic understanding with limited patterns discussed. 41-60: Good strategy but lacks depth in failure mitigation. 61-80: Detailed strategy with clear patterns and mitigation strategies. 81-100: Comprehensive implementation plan with innovative solutions and thorough explanations.",
+          "subtype": "design",
+          "tags": [
+            "high availability",
+            "distributed systems"
+          ],
+          "difficulty": 5
+        },
+        {
+          "type": "fr",
+          "id": "q7",
+          "q": "Explain how you would approach the design of a system that needs to handle varying loads while maintaining performance. Include considerations for scaling, load balancing, and resource allocation.",
+          "rubric": "0-20: No clear approach or understanding. 21-40: Basic understanding with limited considerations. 41-60: Good approach but lacks details on scaling or load balancing. 61-80: Detailed approach with clear strategies for scaling and load balancing. 81-100: Comprehensive design with innovative solutions and thorough considerations.",
+          "subtype": "design",
+          "tags": [
+            "scalability",
+            "performance"
+          ],
+          "difficulty": 5
+        }
+      ],
+      "policy": {
+        "passingScore": 70,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 45
+      }
+    },
+    "proctorEvents": [
+      {
+        "type": "tab-blur",
+        "ts": 1758751412470
+      },
+      {
+        "type": "no-face",
+        "ts": 1758751412472
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758751417952
+      },
+      {
+        "type": "idle",
+        "ts": 1758751506845
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758751746708
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758751746715
+      }
+    ]
+  },
+  {
+    "id": "attempt-5e6d0lo",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "type": "mcq-single",
+          "id": "q1",
+          "q": "What is the time complexity of accessing an element in an array by index?",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "arrays",
+            "time complexity"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-single",
+          "id": "q2",
+          "q": "Which of the following is a valid way to declare a variable in JavaScript?",
+          "options": [
+            "var x = 10;",
+            "let x = 10;",
+            "const x = 10;",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "tags": [
+            "JavaScript",
+            "variable declaration"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-multi",
+          "id": "q3",
+          "q": "Select all valid ways to define a function in JavaScript.",
+          "options": [
+            "function myFunc() {}",
+            "const myFunc = () => {}",
+            "myFunc() => {}",
+            "const myFunc = function() {}"
+          ],
+          "correctIndices": [
+            0,
+            1,
+            3
+          ],
+          "tags": [
+            "JavaScript",
+            "functions"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "mcq-single",
+          "id": "q4",
+          "q": "What does the 'this' keyword refer to in a regular function in JavaScript?",
+          "options": [
+            "The global object",
+            "The function itself",
+            "The object that is calling the function",
+            "None of the above"
+          ],
+          "correctIndex": 2,
+          "tags": [
+            "JavaScript",
+            "this keyword"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q5",
+          "q": "You are given the following code snippet: `let arr = [1, 2, 3]; arr.push(4); console.log(arr);`. Describe what this code does and what the output will be.",
+          "rubric": "The answer should correctly describe the operation of the push method and the expected output. Points: 0-30 for incorrect or vague descriptions, 31-70 for partially correct answers, 71-100 for complete and accurate explanations.",
+          "subtype": "reasoning",
+          "tags": [
+            "JavaScript",
+            "arrays"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "fr",
+          "id": "q6",
+          "q": "Explain the difference between '==' and '===' in JavaScript.",
+          "rubric": "The answer should clearly explain the concept of type coercion and the strict equality check. Points: 0-30 for incorrect or vague descriptions, 31-70 for partially correct answers, 71-100 for complete and accurate explanations.",
+          "subtype": "reasoning",
+          "tags": [
+            "JavaScript",
+            "equality"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q7",
+          "q": "You are tasked with debugging a piece of code that is supposed to return the largest number in an array. The code is not working as expected. Describe how you would approach debugging this issue.",
+          "rubric": "The answer should outline a clear debugging process, including checking for common errors, using console logs, and testing edge cases. Points: 0-30 for vague or incomplete processes, 31-70 for a reasonable approach, 71-100 for a thorough and systematic debugging strategy.",
+          "subtype": "debug",
+          "tags": [
+            "debugging",
+            "arrays"
+          ],
+          "difficulty": 2
+        }
+      ],
+      "policy": {
+        "passingScore": 70,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 30
+      }
+    },
+    "proctorEvents": [
+      {
+        "type": "looking-away",
+        "ts": 1758782821074
+      },
+      {
+        "type": "speaking",
+        "ts": 1758782821173
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758782837696
+      }
+    ]
+  },
+  {
+    "id": "attempt-epwcnfp",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "type": "mcq-single",
+          "id": "q1",
+          "q": "What is the time complexity of accessing an element in an array by index?",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "arrays",
+            "time complexity"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-single",
+          "id": "q2",
+          "q": "Which of the following is a valid way to declare a variable in JavaScript?",
+          "options": [
+            "var x = 10;",
+            "let x = 10;",
+            "const x = 10;",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "tags": [
+            "JavaScript",
+            "variable declaration"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-multi",
+          "id": "q3",
+          "q": "Select all valid data types in JavaScript.",
+          "options": [
+            "String",
+            "Number",
+            "Boolean",
+            "Character"
+          ],
+          "correctIndices": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "JavaScript",
+            "data types"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "mcq-single",
+          "id": "q4",
+          "q": "What will be the output of the following code: console.log(typeof null);",
+          "options": [
+            "null",
+            "object",
+            "undefined",
+            "error"
+          ],
+          "correctIndex": 1,
+          "tags": [
+            "JavaScript",
+            "type checking"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q5",
+          "q": "You have a function that takes an array of numbers and returns the sum of all elements. Write the function in JavaScript.",
+          "rubric": "The function should correctly sum the elements of the array. Points breakdown: 50 for correct implementation, 30 for correct use of loops or array methods, 20 for handling edge cases (e.g., empty array).",
+          "subtype": "design",
+          "tags": [
+            "JavaScript",
+            "functions"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q6",
+          "q": "Debug the following code that is supposed to reverse a string: function reverseString(str) { return str.split('').reverse(); } What is wrong with it?",
+          "rubric": "Identify and explain the issue in the code. Points breakdown: 50 for identifying the issue, 30 for suggesting a correct solution, 20 for explaining why the solution works.",
+          "subtype": "debug",
+          "tags": [
+            "JavaScript",
+            "debugging"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q7",
+          "q": "Design a simple function to check if a number is even or odd. Provide the implementation in JavaScript.",
+          "rubric": "The function should correctly determine if a number is even or odd. Points breakdown: 50 for correct implementation, 30 for clarity of code, 20 for handling non-integer inputs.",
+          "subtype": "design",
+          "tags": [
+            "JavaScript",
+            "functions"
+          ],
+          "difficulty": 2
+        }
+      ],
+      "policy": {
+        "passingScore": 70,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 30
+      }
+    },
+    "proctorEvents": []
+  },
+  {
+    "id": "attempt-dgv55aw",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "type": "mcq-single",
+          "id": "q1",
+          "q": "What is the time complexity of accessing an element in an array by index?",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "arrays",
+            "time complexity"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-single",
+          "id": "q2",
+          "q": "Which of the following is a valid way to declare a variable in JavaScript?",
+          "options": [
+            "var x = 10;",
+            "let x = 10;",
+            "const x = 10;",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "tags": [
+            "JavaScript",
+            "variable declaration"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-multi",
+          "id": "q3",
+          "q": "Select all valid data types in JavaScript.",
+          "options": [
+            "String",
+            "Number",
+            "Boolean",
+            "Character"
+          ],
+          "correctIndices": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "JavaScript",
+            "data types"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "mcq-single",
+          "id": "q4",
+          "q": "What will be the output of the following code: console.log(typeof null);",
+          "options": [
+            "null",
+            "object",
+            "undefined",
+            "error"
+          ],
+          "correctIndex": 1,
+          "tags": [
+            "JavaScript",
+            "type checking"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q5",
+          "q": "You have a function that takes an array of numbers and returns the sum of all elements. Write the function in JavaScript.",
+          "rubric": "The function should correctly sum the elements of the array. Points breakdown: 50 for correct implementation, 30 for correct use of loops or array methods, 20 for handling edge cases (e.g., empty array).",
+          "subtype": "design",
+          "tags": [
+            "JavaScript",
+            "functions"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q6",
+          "q": "Debug the following code that is supposed to reverse a string: function reverseString(str) { return str.split('').reverse(); } What is wrong with it?",
+          "rubric": "Identify and explain the issue in the code. Points breakdown: 50 for identifying the issue, 30 for suggesting a correct solution, 20 for explaining why the solution works.",
+          "subtype": "debug",
+          "tags": [
+            "JavaScript",
+            "debugging"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q7",
+          "q": "Design a simple function to check if a number is even or odd. Provide the implementation in JavaScript.",
+          "rubric": "The function should correctly determine if a number is even or odd. Points breakdown: 50 for correct implementation, 30 for clarity of code, 20 for handling non-integer inputs.",
+          "subtype": "design",
+          "tags": [
+            "JavaScript",
+            "functions"
+          ],
+          "difficulty": 2
+        }
+      ],
+      "policy": {
+        "passingScore": 70,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 30
+      }
+    },
+    "proctorEvents": []
+  },
+  {
+    "id": "attempt-ut4ihk3",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "type": "mcq-single",
+          "id": "q1",
+          "q": "What is the time complexity of accessing an element in an array by index?",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "arrays",
+            "time complexity"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-single",
+          "id": "q2",
+          "q": "Which of the following is a valid way to declare a variable in JavaScript?",
+          "options": [
+            "var x = 10;",
+            "let x = 10;",
+            "const x = 10;",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "tags": [
+            "JavaScript",
+            "variable declaration"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-multi",
+          "id": "q3",
+          "q": "Select all valid data types in JavaScript.",
+          "options": [
+            "String",
+            "Number",
+            "Boolean",
+            "Character"
+          ],
+          "correctIndices": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "JavaScript",
+            "data types"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "mcq-single",
+          "id": "q4",
+          "q": "What will be the output of the following code: console.log(typeof null);",
+          "options": [
+            "null",
+            "object",
+            "undefined",
+            "error"
+          ],
+          "correctIndex": 1,
+          "tags": [
+            "JavaScript",
+            "type checking"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q5",
+          "q": "You have a function that takes an array of numbers and returns the sum of all elements. Write the function in JavaScript.",
+          "rubric": "The function should correctly sum the elements of the array. Points breakdown: 50 for correct implementation, 30 for correct use of loops or array methods, 20 for handling edge cases (e.g., empty array).",
+          "subtype": "design",
+          "tags": [
+            "JavaScript",
+            "functions"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q6",
+          "q": "Debug the following code that is supposed to reverse a string: function reverseString(str) { return str.split('').reverse(); } What is wrong with it?",
+          "rubric": "Identify and explain the issue in the code. Points breakdown: 50 for identifying the issue, 30 for suggesting a correct solution, 20 for explaining why the solution works.",
+          "subtype": "debug",
+          "tags": [
+            "JavaScript",
+            "debugging"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q7",
+          "q": "Design a simple function to check if a number is even or odd. Provide the implementation in JavaScript.",
+          "rubric": "The function should correctly determine if a number is even or odd. Points breakdown: 50 for correct implementation, 30 for clarity of code, 20 for handling non-integer inputs.",
+          "subtype": "design",
+          "tags": [
+            "JavaScript",
+            "functions"
+          ],
+          "difficulty": 2
+        }
+      ],
+      "policy": {
+        "passingScore": 70,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 30
+      }
+    },
+    "proctorEvents": []
+  },
+  {
+    "id": "attempt-z0quj04",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "type": "mcq-single",
+          "id": "q1",
+          "q": "What is the time complexity of accessing an element in an array by index?",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "arrays",
+            "time complexity"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-single",
+          "id": "q2",
+          "q": "Which of the following is a valid way to declare a variable in JavaScript?",
+          "options": [
+            "var x = 10;",
+            "let x = 10;",
+            "const x = 10;",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "tags": [
+            "JavaScript",
+            "variable declaration"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-multi",
+          "id": "q3",
+          "q": "Select all valid data types in JavaScript.",
+          "options": [
+            "String",
+            "Number",
+            "Boolean",
+            "Character"
+          ],
+          "correctIndices": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "JavaScript",
+            "data types"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "mcq-single",
+          "id": "q4",
+          "q": "What will be the output of the following code: console.log(typeof null);",
+          "options": [
+            "null",
+            "object",
+            "undefined",
+            "error"
+          ],
+          "correctIndex": 1,
+          "tags": [
+            "JavaScript",
+            "type checking"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q5",
+          "q": "You have a function that takes an array of numbers and returns the sum of all elements. Write the function in JavaScript.",
+          "rubric": "The function should correctly sum the elements of the array. Points breakdown: 50 for correct implementation, 30 for correct use of loops or array methods, 20 for handling edge cases (e.g., empty array).",
+          "subtype": "design",
+          "tags": [
+            "JavaScript",
+            "functions"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q6",
+          "q": "Debug the following code that is supposed to reverse a string: function reverseString(str) { return str.split('').reverse(); } What is wrong with it?",
+          "rubric": "Identify and explain the issue in the code. Points breakdown: 50 for identifying the issue, 30 for suggesting a correct solution, 20 for explaining why the solution works.",
+          "subtype": "debug",
+          "tags": [
+            "JavaScript",
+            "debugging"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q7",
+          "q": "Design a simple function to check if a number is even or odd. Provide the implementation in JavaScript.",
+          "rubric": "The function should correctly determine if a number is even or odd. Points breakdown: 50 for correct implementation, 30 for clarity of code, 20 for handling non-integer inputs.",
+          "subtype": "design",
+          "tags": [
+            "JavaScript",
+            "functions"
+          ],
+          "difficulty": 2
+        }
+      ],
+      "policy": {
+        "passingScore": 70,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 30
+      }
+    },
+    "proctorEvents": []
+  },
+  {
+    "id": "attempt-6zh9tx6",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "type": "mcq-single",
+          "id": "q1",
+          "q": "What is the time complexity of accessing an element in an array?",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "algorithms",
+            "complexity"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-single",
+          "id": "q2",
+          "q": "Which of the following is a valid way to declare a variable in JavaScript?",
+          "options": [
+            "var x = 10;",
+            "let x = 10;",
+            "const x = 10;",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "tags": [
+            "JS semantics"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-multi",
+          "id": "q3",
+          "q": "Select all valid data types in JavaScript.",
+          "options": [
+            "String",
+            "Number",
+            "Boolean",
+            "Character"
+          ],
+          "correctIndices": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "JS semantics"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-single",
+          "id": "q4",
+          "q": "What does the 'this' keyword refer to in a JavaScript function?",
+          "options": [
+            "The global object",
+            "The function itself",
+            "The object that calls the function",
+            "None of the above"
+          ],
+          "correctIndex": 2,
+          "tags": [
+            "JS semantics"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q5",
+          "q": "You are given a piece of code that is supposed to find the maximum number in an array. However, it is returning incorrect results. Identify the issue and suggest a fix.",
+          "rubric": "Identify the issue (0-50 points) and provide a correct implementation (0-50 points). Total: 100 points.",
+          "subtype": "debug",
+          "tags": [
+            "debugging"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q6",
+          "q": "Design a simple function in JavaScript that takes an array of numbers and returns the sum. Explain your approach.",
+          "rubric": "Correct function implementation (0-70 points) and clear explanation of the approach (0-30 points). Total: 100 points.",
+          "subtype": "design",
+          "tags": [
+            "design"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "q7",
+          "q": "You are asked to implement a basic REST API endpoint that returns a list of users. Describe how you would structure this endpoint and what HTTP methods you would use.",
+          "rubric": "Clear structure of the endpoint (0-60 points) and appropriate use of HTTP methods (0-40 points). Total: 100 points.",
+          "subtype": "design",
+          "tags": [
+            "REST",
+            "API design"
+          ],
+          "difficulty": 2
+        }
+      ],
+      "policy": {
+        "passingScore": 70,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 30
+      }
+    },
+    "proctorEvents": []
+  },
+  {
+    "id": "attempt-yee87wn",
+    "test": {
+      "level": "mid",
+      "questions": [
+        {
+          "type": "mcq-single",
+          "id": "1",
+          "q": "What is the time complexity of accessing an element in a hash table?",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "complexity",
+            "data structures"
+          ],
+          "difficulty": 3
+        },
+        {
+          "type": "mcq-single",
+          "id": "2",
+          "q": "In RESTful APIs, which HTTP method is typically used to update an existing resource?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "correctIndex": 2,
+          "tags": [
+            "HTTP",
+            "REST"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "mcq-multi",
+          "id": "3",
+          "q": "Select all statements that are true regarding SQL indexing.",
+          "options": [
+            "Indexes can improve query performance.",
+            "Indexes consume additional disk space.",
+            "Indexes can slow down write operations.",
+            "Indexes are automatically created for all columns."
+          ],
+          "correctIndices": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "SQL",
+            "performance"
+          ],
+          "difficulty": 3
+        },
+        {
+          "type": "mcq-single",
+          "id": "4",
+          "q": "Which of the following is a common issue when dealing with concurrent programming?",
+          "options": [
+            "Race conditions",
+            "Memory leaks",
+            "Stack overflow",
+            "Null pointer exceptions"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "concurrency",
+            "programming"
+          ],
+          "difficulty": 3
+        },
+        {
+          "type": "fr",
+          "id": "5",
+          "q": "You are tasked with optimizing a web application that is experiencing slow response times. Describe the steps you would take to identify and resolve the performance issues.",
+          "rubric": "Criteria: 1) Identification of performance bottlenecks (0-40 points) 2) Suggested optimizations (0-40 points) 3) Consideration of trade-offs (0-20 points)",
+          "subtype": "reasoning",
+          "tags": [
+            "performance",
+            "optimization"
+          ],
+          "difficulty": 3
+        },
+        {
+          "type": "fr",
+          "id": "6",
+          "q": "A service you maintain is experiencing high latency due to database contention. What strategies would you implement to reduce contention and improve performance?",
+          "rubric": "Criteria: 1) Identification of contention causes (0-30 points) 2) Suggested strategies (0-50 points) 3) Explanation of expected outcomes (0-20 points)",
+          "subtype": "design",
+          "tags": [
+            "database",
+            "performance"
+          ],
+          "difficulty": 4
+        },
+        {
+          "type": "fr",
+          "id": "7",
+          "q": "You need to design a RESTful API for a library system. What endpoints would you create, and how would you structure the data returned from these endpoints?",
+          "rubric": "Criteria: 1) Endpoint design (0-40 points) 2) Data structure clarity (0-40 points) 3) Adherence to REST principles (0-20 points)",
+          "subtype": "design",
+          "tags": [
+            "REST",
+            "API design"
+          ],
+          "difficulty": 3
+        }
+      ],
+      "policy": {
+        "passingScore": 70,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 30
+      }
+    },
+    "proctorEvents": []
+  },
+  {
+    "id": "attempt-15tv6lr",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "type": "mcq-single",
+          "id": "q1",
+          "q": "What is the time complexity of accessing an element in an array by its index?",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "arrays",
+            "time complexity"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-single",
+          "id": "q2",
+          "q": "Which of the following is a valid way to declare a variable in JavaScript?",
+          "options": [
+            "var x = 10;",
+            "let y = 20;",
+            "const z = 30;",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "tags": [
+            "JavaScript",
+            "variable declaration"
+          ],
+          "difficulty": 1
+        },
+        {
+          "type": "mcq-multi",
+          "id": "q3",
+          "q": "Select all valid data types in JavaScript.",
+          "options": [
+            "String",
+            "Number",
+            "Boolean",
+            "Character"
+          ],
+          "correctIndices": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "JavaScript",
+            "data types"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "mcq-single",
+          "id": "q4",
+          "q": "What will the following code output? console.log(typeof null);",
+          "options": [
+            "'object'",
+            "'null'",
+            "'undefined'",
+            "'number'"
+          ],
+          "correctIndex": 0,
+          "tags": [
+            "JavaScript",
+            "type checking"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "fr1",
+          "q": "You are given the following code snippet that is supposed to calculate the sum of an array of numbers. Identify the error and provide a corrected version of the code.\n\n```javascript\nfunction sumArray(arr) {\n    let sum = 0;\n    for (let i = 0; i <= arr.length; i++) {\n        sum += arr[i];\n    }\n    return sum;\n}\n```\n",
+          "rubric": "Identify the off-by-one error in the loop. Correct the loop condition to prevent accessing out of bounds. (50 points for identifying the error, 50 points for providing the correct code.)",
+          "subtype": "debug",
+          "tags": [
+            "JavaScript",
+            "debugging"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "fr2",
+          "q": "Design a simple function in JavaScript that takes a string and returns the string reversed. Provide the implementation and explain how it works.",
+          "rubric": "Implementation of the reverse function (50 points), clear explanation of the approach used (50 points).",
+          "subtype": "design",
+          "tags": [
+            "JavaScript",
+            "design"
+          ],
+          "difficulty": 2
+        },
+        {
+          "type": "fr",
+          "id": "fr3",
+          "q": "You are tasked with fixing a bug in a simple web application where the user cannot submit a form if any field is empty. Describe how you would approach debugging this issue.",
+          "rubric": "Identify potential causes of the issue (40 points), outline steps to reproduce the bug (30 points), suggest possible solutions (30 points).",
+          "subtype": "debug",
+          "tags": [
+            "web development",
+            "debugging"
+          ],
+          "difficulty": 2
+        }
+      ],
+      "policy": {
+        "passingScore": 70,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 30
+      }
+    },
+    "proctorEvents": []
+  },
+  {
+    "id": "attempt-hq25oln",
+    "test": {
+      "level": "mid",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq-single",
+          "prompt": "What is the primary purpose of using version control systems like Git?",
+          "options": [
+            "To manage changes to source code over time",
+            "To compile code into executable files",
+            "To automate testing processes",
+            "To deploy applications to production"
+          ],
+          "correct": 0,
+          "tags": [
+            "version control",
+            "git",
+            "source code management"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q2",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are benefits of using RESTful APIs? (Select all that apply)",
+          "options": [
+            "Statelessness",
+            "Caching",
+            "Tight coupling with the client",
+            "Uniform interface"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "tags": [
+            "REST",
+            "APIs",
+            "web services"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q3",
+          "kind": "mcq-single",
+          "prompt": "In object-oriented programming, what does encapsulation refer to?",
+          "options": [
+            "Hiding the internal state and requiring all interaction to be performed through an object's methods",
+            "The ability of different classes to be treated as instances of the same class through inheritance",
+            "The process of combining data and functions into a single unit",
+            "The ability to create multiple methods with the same name but different parameters"
+          ],
+          "correct": 0,
+          "tags": [
+            "OOP",
+            "encapsulation",
+            "programming concepts"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q4",
+          "kind": "free-response",
+          "prompt": "Describe a situation where you had to debug a complex issue in your code. What steps did you take to identify and resolve the problem?",
+          "rubric": [
+            "Clearly describes the issue and its impact",
+            "Outlines the debugging process step-by-step",
+            "Discusses tools or techniques used",
+            "Explains the final solution and any lessons learned"
+          ],
+          "tags": [
+            "debugging",
+            "problem solving",
+            "software development"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q5",
+          "kind": "free-response",
+          "prompt": "Explain the concept of asynchronous programming and provide an example of how it can improve application performance.",
+          "rubric": [
+            "Defines asynchronous programming clearly",
+            "Provides a relevant example",
+            "Discusses performance benefits",
+            "Demonstrates understanding of callbacks, promises, or async/await"
+          ],
+          "tags": [
+            "asynchronous programming",
+            "performance",
+            "JavaScript"
+          ],
+          "difficulty": 4
+        },
+        {
+          "id": "q6",
+          "kind": "free-response",
+          "prompt": "Imagine you are tasked with designing a new feature for an existing application. Describe your approach to gathering requirements and ensuring the feature meets user needs.",
+          "rubric": [
+            "Describes methods for gathering requirements (e.g., user interviews, surveys)",
+            "Discusses how to prioritize features based on user feedback",
+            "Explains how to validate the feature post-implementation",
+            "Considers collaboration with stakeholders"
+          ],
+          "tags": [
+            "requirements gathering",
+            "feature design",
+            "user experience"
+          ],
+          "difficulty": 4
+        }
+      ],
+      "policy": {
+        "passingScore": 75,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 2100
+      }
+    },
+    "answers": [],
+    "proctorEvents": []
+  },
+  {
+    "id": "attempt-0i9icyf",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq-single",
+          "prompt": "What is the primary purpose of a version control system?",
+          "options": [
+            "To manage changes to source code over time",
+            "To compile code into executable files",
+            "To deploy applications to production",
+            "To monitor application performance"
+          ],
+          "correct": 0,
+          "tags": [
+            "version control",
+            "git",
+            "software development"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q2",
+          "kind": "mcq-single",
+          "prompt": "Which of the following is a valid way to declare a variable in JavaScript?",
+          "options": [
+            "var name = 'John';",
+            "let name = 'John';",
+            "const name = 'John';",
+            "All of the above"
+          ],
+          "correct": 3,
+          "tags": [
+            "javascript",
+            "variables",
+            "programming"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q3",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are common HTTP methods?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE",
+            "FETCH"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            "HTTP",
+            "web development",
+            "API"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q4",
+          "kind": "free-response",
+          "prompt": "Describe the concept of 'responsive design' in web development.",
+          "rubric": [
+            "Clearly defines responsive design",
+            "Mentions the importance of adaptability to different screen sizes",
+            "Provides examples of techniques used (e.g., media queries)",
+            "Discusses user experience considerations"
+          ],
+          "tags": [
+            "web design",
+            "responsive design",
+            "UX"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q5",
+          "kind": "free-response",
+          "prompt": "Explain the difference between '== ' and '===' in JavaScript.",
+          "rubric": [
+            "Clearly explains both operators",
+            "Discusses type coercion in '=='",
+            "Explains strict equality in '==='",
+            "Provides examples of each operator in use"
+          ],
+          "tags": [
+            "javascript",
+            "operators",
+            "programming"
+          ],
+          "difficulty": 3
+        }
+      ],
+      "policy": {
+        "passingScore": 75,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 2100
+      }
+    },
+    "answers": [
+      {
+        "id": "q1",
+        "type": "mcq-single",
+        "choice": 0
+      },
+      {
+        "id": "q2",
+        "type": "mcq-single",
+        "choice": 0
+      },
+      {
+        "id": "q3",
+        "type": "mcq-multi",
+        "choices": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "free-response",
+        "text": "you know bettee"
+      },
+      {
+        "id": "q5",
+        "type": "free-response",
+        "text": "one compares the value and other data type"
+      }
+    ],
+    "proctorEvents": [
+      {
+        "type": "no-face",
+        "ts": 1758791897253
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758791901068
+      }
+    ],
+    "graded": {
+      "score": 22,
+      "passed": false,
+      "breakdown": {
+        "mcq": 17,
+        "fr": 5,
+        "mcqScore": 33,
+        "frScore": 10,
+        "mcqDetail": [
+          {
+            "id": "q1",
+            "correct": true
+          },
+          {
+            "id": "q2",
+            "correct": false
+          },
+          {
+            "id": "q3",
+            "correct": false
+          }
+        ],
+        "frDetail": [
+          {
+            "id": "q4",
+            "aiScore": 0,
+            "notes": "The response does not define responsive design, lacks any mention of adaptability to different screen sizes, does not provide examples of techniques, and fails to discuss user experience considerations."
+          },
+          {
+            "id": "q5",
+            "aiScore": 20,
+            "notes": "The answer is vague and lacks detail. It does not clearly explain the operators, type coercion, or provide examples."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "attempt-ylanx94",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq-single",
+          "prompt": "What is the primary purpose of a version control system?",
+          "options": [
+            "To track changes in code and collaborate with others",
+            "To compile code into executable files",
+            "To manage database connections",
+            "To optimize code performance"
+          ],
+          "correct": 0,
+          "tags": [
+            "version control",
+            "git",
+            "collaboration"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q2",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are valid data types in JavaScript? (Select all that apply)",
+          "options": [
+            "String",
+            "Integer",
+            "Boolean",
+            "Array"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "tags": [
+            "javascript",
+            "data types"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q3",
+          "kind": "mcq-single",
+          "prompt": "What does HTML stand for?",
+          "options": [
+            "HyperText Markup Language",
+            "HighText Machine Language",
+            "Hyperlink and Text Markup Language",
+            "HyperText Markup Level"
+          ],
+          "correct": 0,
+          "tags": [
+            "HTML",
+            "web development"
+          ],
+          "difficulty": 1
+        },
+        {
+          "id": "q4",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are common HTTP methods? (Select all that apply)",
+          "options": [
+            "GET",
+            "POST",
+            "FETCH",
+            "DELETE"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "tags": [
+            "HTTP",
+            "web development"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q5",
+          "kind": "free-response",
+          "prompt": "Describe the process of debugging a simple JavaScript function that is not returning the expected output.",
+          "rubric": [
+            "Clearly explains the steps taken to identify the issue",
+            "Describes how to test the function after making changes",
+            "Mentions the use of console.log or other debugging tools"
+          ],
+          "tags": [
+            "debugging",
+            "javascript"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q6",
+          "kind": "free-response",
+          "prompt": "Write a simple function in Python that takes a list of numbers and returns the sum of the even numbers.",
+          "rubric": [
+            "Function correctly iterates through the list",
+            "Properly checks for even numbers",
+            "Returns the correct sum"
+          ],
+          "tags": [
+            "python",
+            "functions"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q7",
+          "kind": "free-response",
+          "prompt": "Explain the concept of 'responsive design' in web development.",
+          "rubric": [
+            "Defines responsive design clearly",
+            "Discusses its importance in modern web development",
+            "Provides examples of techniques used in responsive design"
+          ],
+          "tags": [
+            "responsive design",
+            "web development"
+          ],
+          "difficulty": 3
+        }
+      ],
+      "policy": {
+        "passingScore": 75,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 2100
+      }
+    },
+    "answers": [
+      {
+        "id": "q1",
+        "type": "mcq-single",
+        "choice": 0
+      },
+      {
+        "id": "q2",
+        "type": "mcq-multi",
+        "choices": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq-single",
+        "choice": 0
+      },
+      {
+        "id": "q4",
+        "type": "mcq-multi",
+        "choices": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "free-response",
+        "text": "I do know"
+      },
+      {
+        "id": "q6",
+        "type": "free-response",
+        "text": "def func(num):\n  sum = 0 \n  for i in range(num.lenght())\n    if (num[i] %2 == 0):\n     sum = num[i] + sum\n     return sum"
+      },
+      {
+        "id": "q7",
+        "type": "free-response",
+        "text": "I do know"
+      }
+    ],
+    "proctorEvents": [
+      {
+        "type": "no-face",
+        "ts": 1758792367541
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758792389167
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758792389391
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758792639149
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758792639336
+      }
+    ],
+    "graded": {
+      "score": 44,
+      "passed": false,
+      "breakdown": {
+        "mcq": 38,
+        "fr": 7,
+        "mcqScore": 75,
+        "frScore": 13,
+        "mcqDetail": [
+          {
+            "id": "q1",
+            "correct": true
+          },
+          {
+            "id": "q2",
+            "correct": false
+          },
+          {
+            "id": "q3",
+            "correct": true
+          },
+          {
+            "id": "q4",
+            "correct": true
+          }
+        ],
+        "frDetail": [
+          {
+            "id": "q5",
+            "aiScore": 10,
+            "notes": "The response is incomplete and does not provide any steps for identifying the issue, testing the function, or mentioning debugging tools."
+          },
+          {
+            "id": "q6",
+            "aiScore": 30,
+            "notes": "The function does not iterate correctly due to a syntax error in 'num.lenght()' and the return statement is incorrectly indented, causing it to exit the loop prematurely. Additionally, the variable name 'sum' shadows the built-in function 'sum'."
+          },
+          {
+            "id": "q7",
+            "aiScore": 0,
+            "notes": "The response does not define responsive design, discuss its importance, or provide any examples. It lacks any relevant content."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "attempt-4haks46",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq-single",
+          "prompt": "What is the output of the following code? `console.log(typeof null);`",
+          "options": [
+            "object",
+            "null",
+            "undefined",
+            "number"
+          ],
+          "correct": 0,
+          "tags": [
+            "JavaScript",
+            "data types"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q2",
+          "kind": "mcq-single",
+          "prompt": "Which of the following is a valid way to declare a variable in JavaScript?",
+          "options": [
+            "var x = 10;",
+            "let x = 10;",
+            "const x = 10;",
+            "All of the above"
+          ],
+          "correct": 3,
+          "tags": [
+            "JavaScript",
+            "variables"
+          ],
+          "difficulty": 1
+        },
+        {
+          "id": "q3",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are valid data structures in Python?",
+          "options": [
+            "List",
+            "Dictionary",
+            "Tuple",
+            "Set"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tags": [
+            "Python",
+            "data structures"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q4",
+          "kind": "mcq-single",
+          "prompt": "What does HTML stand for?",
+          "options": [
+            "Hyper Text Markup Language",
+            "High Text Markup Language",
+            "Hyperlink and Text Markup Language",
+            "None of the above"
+          ],
+          "correct": 0,
+          "tags": [
+            "HTML",
+            "web development"
+          ],
+          "difficulty": 1
+        },
+        {
+          "id": "q5",
+          "kind": "free-response",
+          "prompt": "Describe the difference between synchronous and asynchronous programming.",
+          "rubric": [
+            "Clear explanation of synchronous programming",
+            "Clear explanation of asynchronous programming",
+            "Examples of each type",
+            "Discussion of use cases"
+          ],
+          "tags": [
+            "programming concepts",
+            "asynchronous"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q6",
+          "kind": "free-response",
+          "prompt": "Write a simple function in Python that takes a list of numbers and returns the sum of the even numbers.",
+          "rubric": [
+            "Correct function definition",
+            "Proper use of loops or comprehensions",
+            "Correct return statement",
+            "Handles edge cases (e.g., empty list)"
+          ],
+          "tags": [
+            "Python",
+            "functions"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q7",
+          "kind": "free-response",
+          "prompt": "Explain what a RESTful API is and how it differs from SOAP.",
+          "rubric": [
+            "Definition of RESTful API",
+            "Key principles of REST",
+            "Comparison with SOAP",
+            "Examples of use cases for each"
+          ],
+          "tags": [
+            "APIs",
+            "web services"
+          ],
+          "difficulty": 4
+        }
+      ],
+      "policy": {
+        "passingScore": 75,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 2100
+      }
+    },
+    "answers": [
+      {
+        "id": "q1",
+        "type": "mcq-single",
+        "choice": 0
+      },
+      {
+        "id": "q2",
+        "type": "mcq-single",
+        "choice": 3
+      },
+      {
+        "id": "q3",
+        "type": "mcq-multi",
+        "choices": [
+          0,
+          2,
+          3,
+          1
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "mcq-single",
+        "choice": 0
+      },
+      {
+        "id": "q5",
+        "type": "free-response",
+        "text": "I do know"
+      },
+      {
+        "id": "q6",
+        "type": "free-response",
+        "text": "def function"
+      },
+      {
+        "id": "q7",
+        "type": "free-response",
+        "text": "dhfihhhioioe"
+      }
+    ],
+    "proctorEvents": [
+      {
+        "type": "visibility-hidden",
+        "ts": 1758793051891
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758793051895
+      },
+      {
+        "type": "paste",
+        "ts": 1758793105314
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758793106329
+      },
+      {
+        "type": "copy",
+        "ts": 1758793108446
+      }
+    ],
+    "graded": {
+      "score": 54,
+      "passed": false,
+      "breakdown": {
+        "mcq": 50,
+        "fr": 4,
+        "mcqScore": 100,
+        "frScore": 7,
+        "mcqDetail": [
+          {
+            "id": "q1",
+            "correct": true
+          },
+          {
+            "id": "q2",
+            "correct": true
+          },
+          {
+            "id": "q3",
+            "correct": true
+          },
+          {
+            "id": "q4",
+            "correct": true
+          }
+        ],
+        "frDetail": [
+          {
+            "id": "q5",
+            "aiScore": 10,
+            "notes": "The response is vague and does not provide any explanation of synchronous or asynchronous programming, nor does it include examples or use cases."
+          },
+          {
+            "id": "q6",
+            "aiScore": 10,
+            "notes": "The function definition is incomplete and lacks implementation. There is no logic to sum even numbers or handle edge cases."
+          },
+          {
+            "id": "q7",
+            "aiScore": 0,
+            "notes": "The response does not address the question and lacks any relevant information about RESTful APIs, key principles, or comparisons with SOAP."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "attempt-jmjrsy4",
+    "test": {
+      "level": "architect",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq-single",
+          "prompt": "What is the primary purpose of an architectural pattern in software design?",
+          "options": [
+            "To provide a reusable solution to a recurring design problem",
+            "To define the coding standards for a project",
+            "To optimize the performance of a single module",
+            "To enforce security protocols in the application"
+          ],
+          "correct": 0,
+          "tags": [
+            "architecture",
+            "design patterns"
+          ],
+          "difficulty": 5
+        },
+        {
+          "id": "q2",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are characteristics of microservices architecture? (Select all that apply)",
+          "options": [
+            "Independent deployment of services",
+            "Tightly coupled components",
+            "Decentralized data management",
+            "Single database for all services"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "tags": [
+            "microservices",
+            "architecture"
+          ],
+          "difficulty": 4
+        },
+        {
+          "id": "q3",
+          "kind": "mcq-single",
+          "prompt": "In a cloud-native architecture, which of the following is a key principle?",
+          "options": [
+            "Stateful applications",
+            "Infrastructure as code",
+            "Monolithic deployment",
+            "Manual scaling"
+          ],
+          "correct": 1,
+          "tags": [
+            "cloud-native",
+            "architecture"
+          ],
+          "difficulty": 4
+        },
+        {
+          "id": "q4",
+          "kind": "free-response",
+          "prompt": "Describe the trade-offs between using a monolithic architecture versus a microservices architecture.",
+          "rubric": [
+            "Clearly explains the benefits of each architecture",
+            "Discusses scalability and maintainability aspects",
+            "Provides examples of scenarios where one may be preferred over the other"
+          ],
+          "tags": [
+            "architecture",
+            "monolithic",
+            "microservices"
+          ],
+          "difficulty": 5
+        },
+        {
+          "id": "q5",
+          "kind": "free-response",
+          "prompt": "Given a scenario where a system experiences high traffic spikes, outline an architectural solution to handle this load effectively.",
+          "rubric": [
+            "Identifies potential bottlenecks in the current architecture",
+            "Suggests scalable solutions (e.g., load balancing, caching)",
+            "Discusses the implications of the proposed solution on cost and performance"
+          ],
+          "tags": [
+            "scalability",
+            "architecture"
+          ],
+          "difficulty": 5
+        },
+        {
+          "id": "q6",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are best practices for designing RESTful APIs? (Select all that apply)",
+          "options": [
+            "Use HTTP methods explicitly",
+            "Expose internal server structure",
+            "Use plural nouns for resource names",
+            "Implement versioning in the API"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "tags": [
+            "REST",
+            "API design"
+          ],
+          "difficulty": 4
+        },
+        {
+          "id": "q7",
+          "kind": "free-response",
+          "prompt": "Explain how you would approach designing a system for real-time data processing. Include considerations for architecture, technology stack, and data integrity.",
+          "rubric": [
+            "Discusses architectural patterns suitable for real-time processing (e.g., event-driven)",
+            "Mentions technology choices (e.g., message brokers, stream processing frameworks)",
+            "Addresses data integrity and consistency challenges"
+          ],
+          "tags": [
+            "real-time processing",
+            "architecture"
+          ],
+          "difficulty": 5
+        }
+      ],
+      "policy": {
+        "passingScore": 75,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 2100
+      }
+    },
+    "answers": [],
+    "proctorEvents": [
+      {
+        "type": "idle",
+        "ts": 1758793270017
+      },
+      {
+        "type": "idle",
+        "ts": 1758793895432
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758794133939
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758794133946
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758794134048
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758794699248
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758794700122
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758794700126
+      }
+    ]
+  },
+  {
+    "id": "attempt-btjz78p",
+    "test": {
+      "level": "junior",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq-single",
+          "prompt": "What is the output of the following code snippet: `console.log(typeof null);`?",
+          "options": [
+            "'object'",
+            "'null'",
+            "'undefined'",
+            "'number'"
+          ],
+          "correct": 0,
+          "tags": [
+            "JavaScript",
+            "data types"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q2",
+          "kind": "mcq-single",
+          "prompt": "Which of the following is a valid way to declare a variable in JavaScript?",
+          "options": [
+            "var x = 10;",
+            "let x = 10;",
+            "const x = 10;",
+            "All of the above"
+          ],
+          "correct": 3,
+          "tags": [
+            "JavaScript",
+            "variables"
+          ],
+          "difficulty": 1
+        },
+        {
+          "id": "q3",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are common data structures in programming?",
+          "options": [
+            "Arrays",
+            "Linked Lists",
+            "Hash Tables",
+            "All of the above"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "data structures",
+            "programming"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q4",
+          "kind": "mcq-single",
+          "prompt": "What does HTML stand for?",
+          "options": [
+            "Hyper Text Markup Language",
+            "High Text Markup Language",
+            "Hyperlink and Text Markup Language",
+            "None of the above"
+          ],
+          "correct": 0,
+          "tags": [
+            "HTML",
+            "web development"
+          ],
+          "difficulty": 1
+        },
+        {
+          "id": "fr1",
+          "kind": "free-response",
+          "prompt": "Describe the difference between synchronous and asynchronous programming.",
+          "rubric": [
+            "Clearly defines both synchronous and asynchronous programming.",
+            "Provides examples of each.",
+            "Explains the implications of using one over the other."
+          ],
+          "tags": [
+            "programming concepts",
+            "asynchronous"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "fr2",
+          "kind": "free-response",
+          "prompt": "Write a simple function in JavaScript that takes an array of numbers and returns the sum of those numbers.",
+          "rubric": [
+            "Function is correctly defined and named.",
+            "Uses appropriate syntax and constructs.",
+            "Returns the correct sum of the array elements."
+          ],
+          "tags": [
+            "JavaScript",
+            "functions"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "fr3",
+          "kind": "free-response",
+          "prompt": "Explain what a RESTful API is and how it is used in web development.",
+          "rubric": [
+            "Defines RESTful API clearly.",
+            "Describes its principles (statelessness, resource-based).",
+            "Provides examples of how it is used in applications."
+          ],
+          "tags": [
+            "APIs",
+            "web development"
+          ],
+          "difficulty": 3
+        }
+      ],
+      "policy": {
+        "passingScore": 75,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 2100
+      }
+    },
+    "answers": [
+      {
+        "id": "q1",
+        "type": "mcq-single",
+        "choice": 0
+      },
+      {
+        "id": "q2",
+        "type": "mcq-single",
+        "choice": 3
+      },
+      {
+        "id": "q3",
+        "type": "mcq-multi",
+        "choices": [
+          3
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "mcq-single",
+        "choice": 0
+      },
+      {
+        "id": "fr1",
+        "type": "free-response",
+        "text": "hbhbhb"
+      },
+      {
+        "id": "fr2",
+        "type": "free-response",
+        "text": "hbhbhb"
+      },
+      {
+        "id": "fr3",
+        "type": "free-response",
+        "text": "hhhhhh"
+      }
+    ],
+    "proctorEvents": [
+      {
+        "type": "looking-away",
+        "ts": 1758793928033
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758793948097
+      },
+      {
+        "type": "copy",
+        "ts": 1758793957122
+      }
+    ],
+    "graded": {
+      "score": 38,
+      "passed": false,
+      "breakdown": {
+        "mcq": 38,
+        "fr": 0,
+        "mcqScore": 75,
+        "frScore": 0,
+        "mcqDetail": [
+          {
+            "id": "q1",
+            "correct": true
+          },
+          {
+            "id": "q2",
+            "correct": true
+          },
+          {
+            "id": "q3",
+            "correct": false
+          },
+          {
+            "id": "q4",
+            "correct": true
+          }
+        ],
+        "frDetail": [
+          {
+            "id": "fr1",
+            "aiScore": 0,
+            "notes": "The response does not address the question and lacks any relevant information regarding synchronous and asynchronous programming."
+          },
+          {
+            "id": "fr2",
+            "aiScore": 0,
+            "notes": "The candidate's response does not contain a valid JavaScript function or any relevant code. It fails to meet the requirements of the question."
+          },
+          {
+            "id": "fr3",
+            "aiScore": 0,
+            "notes": "The response does not address the question or provide any relevant information about RESTful APIs."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "attempt-zdfwbek",
+    "test": {
+      "level": "mid",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq-single",
+          "prompt": "What is the primary purpose of using version control systems like Git?",
+          "options": [
+            "To track changes in code",
+            "To compile code",
+            "To run tests",
+            "To deploy applications"
+          ],
+          "correct": 0,
+          "tags": [
+            "version control",
+            "Git"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q2",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are benefits of using RESTful APIs?",
+          "options": [
+            "Statelessness",
+            "Caching",
+            "Multiple formats",
+            "Tight coupling"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "APIs",
+            "REST"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q3",
+          "kind": "mcq-single",
+          "prompt": "In object-oriented programming, what does encapsulation refer to?",
+          "options": [
+            "Hiding the internal state of an object",
+            "Inheriting properties from another class",
+            "Creating multiple instances of a class",
+            "Defining a class's methods"
+          ],
+          "correct": 0,
+          "tags": [
+            "OOP",
+            "encapsulation"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q4",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are common design patterns in software development?",
+          "options": [
+            "Singleton",
+            "Observer",
+            "Factory",
+            "Global"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "design patterns"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "fr1",
+          "kind": "free-response",
+          "prompt": "Describe a situation where you had to debug a complex issue in a software application. What steps did you take to identify and resolve the problem?",
+          "rubric": [
+            "Clear description of the issue",
+            "Steps taken to debug",
+            "Tools or methods used",
+            "Outcome of the debugging process"
+          ],
+          "tags": [
+            "debugging",
+            "problem-solving"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "fr2",
+          "kind": "free-response",
+          "prompt": "Explain the concept of asynchronous programming and provide an example of where it might be beneficial in a web application.",
+          "rubric": [
+            "Definition of asynchronous programming",
+            "Explanation of benefits",
+            "Relevant example provided"
+          ],
+          "tags": [
+            "asynchronous programming",
+            "web development"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "fr3",
+          "kind": "free-response",
+          "prompt": "Discuss the importance of code reviews in a software development team. What are some best practices you would recommend?",
+          "rubric": [
+            "Importance of code reviews explained",
+            "Best practices listed",
+            "Examples of positive outcomes from code reviews"
+          ],
+          "tags": [
+            "code review",
+            "team collaboration"
+          ],
+          "difficulty": 3
+        }
+      ],
+      "policy": {
+        "passingScore": 75,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 2100
+      }
+    },
+    "answers": [
+      {
+        "id": "q1",
+        "type": "mcq-single",
+        "choice": 2
+      },
+      {
+        "id": "q2",
+        "type": "mcq-multi",
+        "choices": [
+          2,
+          1
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq-single",
+        "choice": 0
+      },
+      {
+        "id": "q4",
+        "type": "mcq-multi",
+        "choices": [
+          0
+        ]
+      },
+      {
+        "id": "fr1",
+        "type": "free-response",
+        "text": "jnn"
+      },
+      {
+        "id": "fr2",
+        "type": "free-response",
+        "text": "jnjfncdjnc"
+      },
+      {
+        "id": "fr3",
+        "type": "free-response",
+        "text": "sjdnsjnd"
+      }
+    ],
+    "proctorEvents": [
+      {
+        "type": "looking-away",
+        "ts": 1758795509629
+      },
+      {
+        "type": "copy",
+        "ts": 1758795520959
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758795524694
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758795529353
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758795549430
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758795569446
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758795589480
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758795609469
+      }
+    ],
+    "graded": {
+      "score": 13,
+      "passed": false,
+      "breakdown": {
+        "mcq": 13,
+        "fr": 0,
+        "mcqScore": 25,
+        "frScore": 0,
+        "mcqDetail": [
+          {
+            "id": "q1",
+            "correct": false
+          },
+          {
+            "id": "q2",
+            "correct": false
+          },
+          {
+            "id": "q3",
+            "correct": true
+          },
+          {
+            "id": "q4",
+            "correct": false
+          }
+        ],
+        "frDetail": [
+          {
+            "id": "fr1",
+            "aiScore": 0,
+            "notes": "The response does not provide any relevant information regarding the debugging process, including the issue description, steps taken, or tools used."
+          },
+          {
+            "id": "fr2",
+            "aiScore": 0,
+            "notes": "The response does not address the question or provide any relevant information about asynchronous programming."
+          },
+          {
+            "id": "fr3",
+            "aiScore": 0,
+            "notes": "The response does not address the question or provide any relevant information about the importance of code reviews, best practices, or examples of positive outcomes."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "attempt-f7d2bmb",
+    "test": {
+      "level": "mid",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq-single",
+          "prompt": "What is the purpose of the 'this' keyword in JavaScript?",
+          "options": [
+            "To refer to the global object",
+            "To refer to the current object",
+            "To create a new object",
+            "To define a function"
+          ],
+          "correct": 1,
+          "tags": [
+            "JavaScript",
+            "OOP"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q2",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are valid ways to declare a variable in Python?",
+          "options": [
+            "var x = 10",
+            "let x = 10",
+            "x = 10",
+            "const x = 10"
+          ],
+          "correct": [
+            2,
+            3
+          ],
+          "tags": [
+            "Python",
+            "Variables"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q3",
+          "kind": "mcq-single",
+          "prompt": "In RESTful APIs, what does the POST method typically do?",
+          "options": [
+            "Retrieve data from the server",
+            "Update existing data",
+            "Create a new resource",
+            "Delete a resource"
+          ],
+          "correct": 2,
+          "tags": [
+            "REST",
+            "APIs"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q4",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are common design patterns in software development?",
+          "options": [
+            "Singleton",
+            "Observer",
+            "Decorator",
+            "Compiler"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "Design Patterns",
+            "Software Engineering"
+          ],
+          "difficulty": 4
+        },
+        {
+          "id": "q5",
+          "kind": "free-response",
+          "prompt": "Describe how you would approach debugging a performance issue in a web application.",
+          "rubric": [
+            "Identify the symptoms of the performance issue.",
+            "Use profiling tools to analyze performance.",
+            "Isolate the problematic code or resource.",
+            "Implement optimizations and test the impact.",
+            "Document findings and solutions."
+          ],
+          "tags": [
+            "Debugging",
+            "Performance"
+          ],
+          "difficulty": 4
+        },
+        {
+          "id": "q6",
+          "kind": "free-response",
+          "prompt": "Explain the concept of asynchronous programming and its benefits in JavaScript.",
+          "rubric": [
+            "Define asynchronous programming.",
+            "Discuss the event loop and callbacks.",
+            "Explain promises and async/await.",
+            "Highlight benefits such as improved performance and user experience."
+          ],
+          "tags": [
+            "JavaScript",
+            "Asynchronous"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q7",
+          "kind": "free-response",
+          "prompt": "You are tasked with designing a simple RESTful API for a book store. Outline the endpoints you would create and their functionalities.",
+          "rubric": [
+            "List endpoints (e.g., GET /books, POST /books).",
+            "Describe the purpose of each endpoint.",
+            "Include expected request and response formats.",
+            "Consider authentication and error handling."
+          ],
+          "tags": [
+            "API Design",
+            "REST"
+          ],
+          "difficulty": 4
+        }
+      ],
+      "policy": {
+        "passingScore": 75,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 2100
+      }
+    },
+    "answers": [
+      {
+        "id": "q1",
+        "type": "mcq-single",
+        "choice": 2
+      },
+      {
+        "id": "q2",
+        "type": "mcq-multi",
+        "choices": [
+          0
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq-single",
+        "choice": 0
+      },
+      {
+        "id": "q4",
+        "type": "mcq-multi",
+        "choices": [
+          2
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "free-response",
+        "text": "dfggg"
+      },
+      {
+        "id": "q6",
+        "type": "free-response",
+        "text": "yyg"
+      },
+      {
+        "id": "q7",
+        "type": "free-response",
+        "text": "fvvff"
+      }
+    ],
+    "proctorEvents": [
+      {
+        "type": "looking-away",
+        "ts": 1758795708363
+      },
+      {
+        "type": "speaking",
+        "ts": 1758795708535
+      },
+      {
+        "type": "copy",
+        "ts": 1758795718368
+      },
+      {
+        "type": "paste",
+        "ts": 1758795724743
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758795728138
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758795748147
+      },
+      {
+        "type": "possible-headphones",
+        "ts": 1758795756799
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758795768188
+      },
+      {
+        "type": "no-face",
+        "ts": 1758795770949
+      },
+      {
+        "type": "speaking",
+        "ts": 1758795787686
+      }
+    ],
+    "graded": {
+      "score": 0,
+      "passed": false,
+      "breakdown": {
+        "mcq": 0,
+        "fr": 0,
+        "mcqScore": 0,
+        "frScore": 0,
+        "mcqDetail": [
+          {
+            "id": "q1",
+            "correct": false
+          },
+          {
+            "id": "q2",
+            "correct": false
+          },
+          {
+            "id": "q3",
+            "correct": false
+          },
+          {
+            "id": "q4",
+            "correct": false
+          }
+        ],
+        "frDetail": [
+          {
+            "id": "q5",
+            "aiScore": 0,
+            "notes": "The response does not address any aspect of the performance debugging process and lacks relevant content."
+          },
+          {
+            "id": "q6",
+            "aiScore": 0,
+            "notes": "The candidate's response is not relevant to the question and does not address any of the required components of asynchronous programming in JavaScript."
+          },
+          {
+            "id": "q7",
+            "aiScore": 0,
+            "notes": "The response does not provide any relevant information regarding the endpoints, their purposes, request and response formats, or considerations for authentication and error handling."
+          }
+        ]
+      }
+    }
+  }
+]
