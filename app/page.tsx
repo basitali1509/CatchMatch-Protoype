@@ -33,9 +33,14 @@ export default function Home() {
       <header className="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div aria-hidden className="h-9 w-9 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 shadow-sm" />
-            <span className="text-lg font-semibold tracking-tight">CatchMatch</span>
-          </div>
+    <img
+      src="/logo.svg"
+      alt="CatchMatch logo"
+      className="h-9 w-auto"
+    />
+    <span className="text-lg font-semibold tracking-tight">CatchMatch</span>
+  </div>
+
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <a href="#features" className="hover:text-slate-700">Features</a>
             <a href="#security" className="hover:text-slate-700">Security</a>
@@ -87,7 +92,7 @@ export default function Home() {
               <div className="mt-10">
                 <p className="text-xs uppercase tracking-widest text-slate-500">Trusted by hiring teams</p>
                 <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-6 items-center">
-                  {['TENHUNTER', 'QUANTICA', 'NEBULA', 'PRAXIS'].map((brand) => (
+                  {['TENHUNTER',].map((brand) => (
                     <div key={brand} className="h-10 flex items-center">
                       <div className="text-slate-400 font-semibold tracking-wider">{brand}</div>
                     </div>
@@ -100,7 +105,7 @@ export default function Home() {
             <div className="lg:col-span-5">
               <div className="rounded-2xl border border-slate-200 bg-white shadow-sm p-6">
                 <div className="grid grid-cols-2 gap-4">
-                  <Stat label="Avg. time-to-signal" value="28 min" />
+                  <Stat label="Avg. time-to-signal" value="45 min" />
                   <Stat label="MCQ accuracy baseline" value=">95%" />
                   <Stat label="Cheating reduction" value="−63%" />
                   <Stat label="Hiring cycle time" value="−42%" />
