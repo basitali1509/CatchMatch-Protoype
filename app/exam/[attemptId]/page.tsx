@@ -211,7 +211,7 @@
 //   AnswerMap,
 // } from '@/lib/schema';
 
-// const DEFAULT_TOTAL_SECONDS = 30 * 60; // 30 minutes
+// const DEFAULT_TOTAL_SECONDS = 45 * 60; // 45 minutes
 
 // export default function ExamPage({ params }: { params: { attemptId: string } }) {
 //   const { attemptId } = params;
@@ -516,7 +516,7 @@ import type {
   AnswerMap,
 } from '@/lib/schema';
 
-const DEFAULT_TOTAL_SECONDS = 30 * 60; // 30 minutes
+const DEFAULT_TOTAL_SECONDS = 45 * 60; // 45 minutes
 
 export default function ExamPage({ params }: { params: { attemptId: string } }) {
   const { attemptId } = params;

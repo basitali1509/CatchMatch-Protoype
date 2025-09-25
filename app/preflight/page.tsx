@@ -382,7 +382,7 @@ type GeneratedTest = {
   policy?: { passingScore?: number; weights?: { mcq?: number; fr?: number }; timeLimitSec?: number; };
 };
 
-const DEFAULT_POLICY = { passingScore: 75, weights: { mcq: 0.5, fr: 0.5 }, timeLimitSec: 30*60 };
+const DEFAULT_POLICY = { passingScore: 75, weights: { mcq: 0.5, fr: 0.5 }, timeLimitSec: 45*60 };
 
 export default function Preflight() {
   const router = useRouter();
@@ -530,8 +530,15 @@ export default function Preflight() {
       <div className="mx-auto max-w-7xl px-6 py-10">
         <div className="mb-8 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-600 shadow" />
-            <span className="font-semibold text-slate-900">CatchMatch</span>
+            <div className="flex items-center gap-3">
+  <img
+    src="/logo.svg"
+    alt="CatchMatch logo"
+    className="h-9 w-auto"
+  />
+  <span className="text-lg font-semibold tracking-tight">CatchMatch</span>
+</div>
+
             <span aria-hidden className="mx-3 h-4 w-px bg-slate-300" />
             <span className="text-sm text-slate-600">Preflight Checks</span>
           </div>
@@ -579,7 +586,7 @@ export default function Preflight() {
                 </div>
                 <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
                   <div className="text-xs text-slate-600">Time limit</div>
-                  <div className="text-lg font-semibold text-slate-900">{rubric.tlMin} min</div>
+                  <div className="text-lg font-semibold text-slate-900">{45} min</div>
                 </div>
               </div>
 

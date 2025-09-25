@@ -102,7 +102,7 @@ STRICT OUTPUT JSON:
     // free-response:
     {"type":"fr","id":"...","q":"<scenario prompt>","rubric":"- criteria...\n- criteria...","tags":["..."],"difficulty":1-5}
   ],
-  "policy": {"passingScore":75,"weights":{"mcq":0.5,"fr":0.5},"timeLimitSec":2100}
+  "policy": {"passingScore":75,"weights":{"mcq":0.5,"fr":0.5},"timeLimitSec":2700}
 }
 
 RULES:
@@ -196,7 +196,7 @@ export async function POST(req: NextRequest) {
     const questions = toCanonical((raw as any).questions || []);
     const policy = (raw && typeof raw.policy === 'object')
       ? raw.policy
-      : { passingScore: 75, weights: { mcq: 0.5, fr: 0.5 }, timeLimitSec: 2100 };
+      : { passingScore: 75, weights: { mcq: 0.5, fr: 0.5 }, timeLimitSec: 2700 };
 
     if (!questions.length) return NextResponse.json({ error: 'no_questions' }, { status: 500 });
 

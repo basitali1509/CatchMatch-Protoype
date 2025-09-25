@@ -3385,5 +3385,651 @@
         ]
       }
     }
+  },
+  {
+    "id": "attempt-f06stjk",
+    "test": {
+      "level": "mid",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq-single",
+          "prompt": "What is the primary purpose of using version control systems like Git?",
+          "options": [
+            "To manage code changes and collaborate with other developers",
+            "To compile code into executable files",
+            "To automate testing processes",
+            "To deploy applications to production"
+          ],
+          "correct": 0,
+          "tags": [
+            "version control",
+            "Git",
+            "collaboration"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q2",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are benefits of using RESTful APIs? (Select all that apply)",
+          "options": [
+            "Statelessness",
+            "Caching",
+            "Supports multiple protocols",
+            "Easy to scale"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "tags": [
+            "APIs",
+            "REST",
+            "web services"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q3",
+          "kind": "mcq-single",
+          "prompt": "In JavaScript, what does the 'this' keyword refer to in a function?",
+          "options": [
+            "The global object",
+            "The object that is currently executing the function",
+            "The parent object of the function",
+            "The function itself"
+          ],
+          "correct": 1,
+          "tags": [
+            "JavaScript",
+            "this keyword",
+            "scope"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q4",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are common design patterns in software development? (Select all that apply)",
+          "options": [
+            "Singleton",
+            "Observer",
+            "Factory",
+            "ForEach"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "design patterns",
+            "software engineering"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q5",
+          "kind": "free-response",
+          "prompt": "You are tasked with improving the performance of a web application that is experiencing slow load times. Describe your approach to diagnosing and resolving the issue.",
+          "rubric": [
+            "Identify potential bottlenecks in the application.",
+            "Discuss tools or methods for measuring performance.",
+            "Suggest optimizations or changes to improve load times."
+          ],
+          "tags": [
+            "performance",
+            "web application",
+            "optimization"
+          ],
+          "difficulty": 4
+        },
+        {
+          "id": "q6",
+          "kind": "free-response",
+          "prompt": "Explain the concept of asynchronous programming in JavaScript and provide an example of how it can be implemented.",
+          "rubric": [
+            "Define asynchronous programming and its importance.",
+            "Provide a code example demonstrating async/await or Promises.",
+            "Discuss potential pitfalls of asynchronous code."
+          ],
+          "tags": [
+            "JavaScript",
+            "asynchronous programming",
+            "async/await"
+          ],
+          "difficulty": 4
+        },
+        {
+          "id": "q7",
+          "kind": "free-response",
+          "prompt": "Describe how you would implement error handling in a Node.js application. What strategies would you use to ensure reliability?",
+          "rubric": [
+            "Discuss the importance of error handling.",
+            "Describe different types of errors and how to catch them.",
+            "Suggest best practices for logging and monitoring errors."
+          ],
+          "tags": [
+            "Node.js",
+            "error handling",
+            "reliability"
+          ],
+          "difficulty": 4
+        }
+      ],
+      "policy": {
+        "passingScore": 75,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 2100
+      }
+    },
+    "answers": [
+      {
+        "id": "q1",
+        "type": "mcq-single",
+        "choice": null
+      },
+      {
+        "id": "q2",
+        "type": "mcq-multi",
+        "choices": []
+      },
+      {
+        "id": "q3",
+        "type": "mcq-single",
+        "choice": null
+      },
+      {
+        "id": "q4",
+        "type": "mcq-multi",
+        "choices": []
+      },
+      {
+        "id": "q5",
+        "type": "free-response",
+        "text": ""
+      },
+      {
+        "id": "q6",
+        "type": "free-response",
+        "text": ""
+      },
+      {
+        "id": "q7",
+        "type": "free-response",
+        "text": ""
+      }
+    ],
+    "proctorEvents": [
+      {
+        "type": "no-face",
+        "ts": 1758809901659
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758809901664
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758809903427
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758809903729
+      },
+      {
+        "type": "speaking",
+        "ts": 1758809905102
+      }
+    ],
+    "graded": {
+      "score": 0,
+      "passed": false,
+      "breakdown": {
+        "mcq": 0,
+        "fr": 0,
+        "mcqScore": 0,
+        "frScore": 0,
+        "mcqDetail": [
+          {
+            "id": "q1",
+            "correct": false
+          },
+          {
+            "id": "q2",
+            "correct": false
+          },
+          {
+            "id": "q3",
+            "correct": false
+          },
+          {
+            "id": "q4",
+            "correct": false
+          }
+        ],
+        "frDetail": [
+          {
+            "id": "q5",
+            "aiScore": 0,
+            "notes": "The response is empty and does not address any aspect of the question, including identifying bottlenecks, discussing performance measurement tools, or suggesting optimizations."
+          },
+          {
+            "id": "q6",
+            "aiScore": 0,
+            "notes": "The candidate did not provide any response to the question, failing to define asynchronous programming, provide a code example, or discuss potential pitfalls."
+          },
+          {
+            "id": "q7",
+            "aiScore": 0,
+            "notes": "The response is empty and does not address any aspects of error handling, types of errors, or best practices for logging and monitoring. A complete answer is required to demonstrate understanding."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "attempt-uocedy1",
+    "test": {
+      "level": "mid",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq-single",
+          "prompt": "What is the primary purpose of using version control systems like Git?",
+          "options": [
+            "To manage and track changes in code",
+            "To compile code",
+            "To deploy applications",
+            "To write documentation"
+          ],
+          "correct": 0,
+          "tags": [
+            "version control",
+            "git"
+          ],
+          "difficulty": 2
+        },
+        {
+          "id": "q2",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are benefits of using RESTful APIs? (Select all that apply)",
+          "options": [
+            "Statelessness",
+            "Caching",
+            "Tight coupling",
+            "Uniform interface"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "tags": [
+            "API",
+            "REST"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q3",
+          "kind": "mcq-single",
+          "prompt": "In JavaScript, what does the 'this' keyword refer to in a function?",
+          "options": [
+            "The global object",
+            "The object that the function is a method of",
+            "The function itself",
+            "None of the above"
+          ],
+          "correct": 1,
+          "tags": [
+            "JavaScript",
+            "this keyword"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q4",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are common design patterns in software development? (Select all that apply)",
+          "options": [
+            "Singleton",
+            "Observer",
+            "Decorator",
+            "ForEach"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "design patterns"
+          ],
+          "difficulty": 4
+        },
+        {
+          "id": "q5",
+          "kind": "free-response",
+          "prompt": "You are tasked with optimizing a slow-running SQL query. Describe your approach to identify and resolve performance issues.",
+          "rubric": [
+            "Identify the slow query using profiling tools.",
+            "Analyze the execution plan for bottlenecks.",
+            "Consider indexing strategies.",
+            "Optimize the query structure if necessary.",
+            "Test the performance after changes."
+          ],
+          "tags": [
+            "SQL",
+            "performance optimization"
+          ],
+          "difficulty": 4
+        },
+        {
+          "id": "q6",
+          "kind": "free-response",
+          "prompt": "Explain how you would implement error handling in a RESTful API. Provide examples of best practices.",
+          "rubric": [
+            "Use appropriate HTTP status codes for different error types.",
+            "Return meaningful error messages in the response body.",
+            "Log errors for monitoring and debugging.",
+            "Consider using middleware for centralized error handling."
+          ],
+          "tags": [
+            "API",
+            "error handling"
+          ],
+          "difficulty": 4
+        },
+        {
+          "id": "q7",
+          "kind": "free-response",
+          "prompt": "Describe a situation where you had to work with a difficult team member. How did you handle the situation?",
+          "rubric": [
+            "Clearly outline the conflict or challenge.",
+            "Describe the steps taken to address the issue.",
+            "Highlight the outcome and any lessons learned.",
+            "Reflect on how it impacted team dynamics."
+          ],
+          "tags": [
+            "teamwork",
+            "conflict resolution"
+          ],
+          "difficulty": 3
+        }
+      ],
+      "policy": {
+        "passingScore": 75,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 2100
+      }
+    },
+    "answers": [],
+    "proctorEvents": [
+      {
+        "type": "looking-away",
+        "ts": 1758809996617
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758810002709
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758810002711
+      },
+      {
+        "type": "idle",
+        "ts": 1758810091813
+      },
+      {
+        "type": "looking-away",
+        "ts": 1758810201099
+      },
+      {
+        "type": "visibility-hidden",
+        "ts": 1758810201203
+      },
+      {
+        "type": "tab-blur",
+        "ts": 1758810201212
+      }
+    ]
+  },
+  {
+    "id": "attempt-9y696s3",
+    "test": {
+      "level": "mid",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq-single",
+          "prompt": "What is the primary purpose of using version control systems like Git?",
+          "options": [
+            "To manage changes to source code over time",
+            "To compile code into executable files",
+            "To automate testing processes",
+            "To deploy applications to production"
+          ],
+          "correct": 0,
+          "tags": [
+            "version control",
+            "Git"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q2",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are benefits of using RESTful APIs? (Select all that apply)",
+          "options": [
+            "Statelessness",
+            "Caching",
+            "Supports multiple protocols",
+            "Easy to scale"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "tags": [
+            "APIs",
+            "REST"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q3",
+          "kind": "mcq-single",
+          "prompt": "In JavaScript, what does the 'this' keyword refer to in a function?",
+          "options": [
+            "The global object",
+            "The object that is currently executing the function",
+            "The function itself",
+            "The parent object of the function"
+          ],
+          "correct": 1,
+          "tags": [
+            "JavaScript",
+            "scope"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q4",
+          "kind": "mcq-multi",
+          "prompt": "Which of the following are common design patterns in software development? (Select all that apply)",
+          "options": [
+            "Singleton",
+            "Observer",
+            "Decorator",
+            "Compiler"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "tags": [
+            "design patterns",
+            "software design"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q5",
+          "kind": "free-response",
+          "prompt": "You are tasked with optimizing a slow-running SQL query. Describe your approach to identify and resolve performance issues.",
+          "rubric": [
+            "Identify the slow query and analyze its execution plan.",
+            "Look for missing indexes or inefficient joins.",
+            "Consider query refactoring or breaking it into smaller queries.",
+            "Test the performance after each change to measure improvement."
+          ],
+          "tags": [
+            "SQL",
+            "performance optimization"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q6",
+          "kind": "free-response",
+          "prompt": "Explain how you would handle a situation where a team member is consistently missing deadlines. What steps would you take?",
+          "rubric": [
+            "Assess the reasons behind missed deadlines through a one-on-one conversation.",
+            "Offer support and resources to help them manage their workload.",
+            "Set clear expectations and follow up regularly.",
+            "If issues persist, involve a manager for further action."
+          ],
+          "tags": [
+            "teamwork",
+            "communication"
+          ],
+          "difficulty": 3
+        },
+        {
+          "id": "q7",
+          "kind": "free-response",
+          "prompt": "Describe a time when you had to learn a new technology quickly to complete a project. What was your approach?",
+          "rubric": [
+            "Identify the technology and its relevance to the project.",
+            "Outline the resources used for learning (documentation, tutorials, etc.).",
+            "Discuss how you applied the knowledge to the project.",
+            "Reflect on the outcome and any challenges faced."
+          ],
+          "tags": [
+            "learning",
+            "adaptability"
+          ],
+          "difficulty": 3
+        }
+      ],
+      "policy": {
+        "passingScore": 75,
+        "weights": {
+          "mcq": 0.5,
+          "fr": 0.5
+        },
+        "timeLimitSec": 2700
+      }
+    },
+    "answers": [
+      {
+        "id": "q1",
+        "type": "mcq-single",
+        "choice": null
+      },
+      {
+        "id": "q2",
+        "type": "mcq-multi",
+        "choices": []
+      },
+      {
+        "id": "q3",
+        "type": "mcq-single",
+        "choice": null
+      },
+      {
+        "id": "q4",
+        "type": "mcq-multi",
+        "choices": []
+      },
+      {
+        "id": "q5",
+        "type": "free-response",
+        "text": ""
+      },
+      {
+        "id": "q6",
+        "type": "free-response",
+        "text": ""
+      },
+      {
+        "id": "q7",
+        "type": "free-response",
+        "text": ""
+      }
+    ],
+    "proctorEvents": [
+      {
+        "type": "looking-away",
+        "ts": 1758810262052
+      }
+    ],
+    "graded": {
+      "score": 0,
+      "passed": false,
+      "breakdown": {
+        "mcq": 0,
+        "fr": 0,
+        "mcqScore": 0,
+        "frScore": 0,
+        "mcqDetail": [
+          {
+            "id": "q1",
+            "correct": false
+          },
+          {
+            "id": "q2",
+            "correct": false
+          },
+          {
+            "id": "q3",
+            "correct": false
+          },
+          {
+            "id": "q4",
+            "correct": false
+          }
+        ],
+        "frDetail": [
+          {
+            "id": "q5",
+            "aiScore": 0,
+            "notes": "The response is empty and does not address any aspect of the optimization process for a slow-running SQL query."
+          },
+          {
+            "id": "q6",
+            "aiScore": 0,
+            "notes": "The response is empty and does not address any of the required steps for handling missed deadlines."
+          },
+          {
+            "id": "q7",
+            "aiScore": 0,
+            "notes": "The response is empty and does not address any of the rubric criteria."
+          }
+        ]
+      }
+    }
   }
 ]
